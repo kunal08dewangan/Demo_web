@@ -17,9 +17,9 @@ if button:
     Name : {name}\n
     Age : {age}
     University : {univer} """)
-    a = st.write("Enter a No. For their Table : ")
-    table(a)
-
+   
+a = st.write("Enter a No. For their Table : ")
+table(a)
 def table(a):
     for i in a:
         print(f"{a} X {i} : {a*i}")
