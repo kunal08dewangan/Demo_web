@@ -3,10 +3,10 @@ import streamlit as st
 st.title("Heyy!!")
 st.subheader("I'm Kunal Dewangan !")
 st.markdown("I'm Just A Developer...")
-st.set_page_config(
-    # page_icon = "M.png"
-    page_title = "KD 1st"
-)
+# st.set_page_config(
+#     # page_icon = "M.png"
+#     page_title = "KD 1st"
+# )
 st.title("Enter Your Personal Details :-")
 name = st.text_input("Enter your Name : ")
 age = st.text_input("Enter Your Age : ")
