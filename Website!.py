@@ -17,7 +17,7 @@ if button:
     Name : {name}\n
     Age : {age}
     University : {univer} """)
-    a = int(input("Enter a No. For their Table : "))
+    a = st.write("Enter a No. For their Table : ")
     table(a)
 
 def table(a):
