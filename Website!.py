@@ -4,7 +4,7 @@ st.title("Heyy!!")
 st.subheader("I'm Kunal Dewangan !")
 st.markdown("I'm Just A Developer...")
 st.set_page_config(
-    page_icon = "M.png",
+    # page_icon = "M.png"
     page_title = "KD 1st"
 )
 st.title("Enter Your Personal Details :-")
