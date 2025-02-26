@@ -23,5 +23,5 @@ def table(a):
     for i in a:
         print(f"{a} X {i} : {a*i}")
 
-a = int(input("Enter a No. For their Table : ))
+a = int(input("Enter a No. For their Table : "))
 table(a)
