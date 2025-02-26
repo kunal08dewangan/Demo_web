@@ -7,6 +7,7 @@ st.markdown("I'm Just A Developer...")
 #     # page_icon = "M.png"
 #     page_title = "KD 1st"
 # )
+st.page_title = "KD 1st"
 st.title("Enter Your Personal Details :-")
 name = st.text_input("Enter your Name : ")
 age = st.text_input("Enter Your Age : ")
