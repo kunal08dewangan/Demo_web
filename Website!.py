@@ -17,11 +17,9 @@ if button:
     Name : {name}\n
     Age : {age}
     University : {univer} """)
-
+    a = int(input("Enter a No. For their Table : "))
+    table(a)
 
 def table(a):
     for i in a:
         print(f"{a} X {i} : {a*i}")
-
-a = int(input("Enter a No. For their Table : "))
-table(a)
