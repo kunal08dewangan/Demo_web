@@ -16,7 +16,7 @@ button = st.button("Enter")
 if button:
     st.markdown(f"""
     Name : {name}\n
-    Age : {age}
+    Age : {age}\n
     University : {univer} """)
 
 hide_st_style = """
